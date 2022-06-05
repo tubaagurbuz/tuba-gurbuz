@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Major+Mono+Display&family=Orelega+One&family=Rubik+Glitch&display=swap');
+
+*{
+    font-family: 'Orelega One', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+    box-sizing: border-box;
+   
+    
+  
+}
+
+body {
+  background-color: rgb(242, 238, 238);
+
+}
+
+
+h1{
+  margin-right: auto;
+  color:rgb(54, 5, 101);
+
+  
+ 
+}
+ 
+.ustMenu li a{
+  display:block; 
+  font-weight: bold;
+  color: #44494b;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  margin: 5px;
+ 
+  font-weight: bold;
+ 
+}
+ 
+ 
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 30px 10%;
+  font-size: 16px;
+
+}
+
+.icons{
+  margin-left: 20px;
+  padding: 9px 20px;
+  cursor: pointer;
+
+
+}
+
+
+.ustMenu{
+  list-style: none;
+}
+.ustMenu li{
+  display: inline-block;
+  padding: 0px 20px;
+  
+
+ 
+}
+
+
+
+.ustMenu li a:hover{
+  color:rgb(64, 8, 84);
+  
+  
+ 
+}
+   
+  .weather{
+   align-items: flex-end;
+    justify-content: end;
+    float: right;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    width: 420px;
+    padding-top: 50px;
+   }
+ 
+   
+.ustMenu a:hover {
+  
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+
+.resimler{
+  float:left;
+ }
+
+
+.page-hakkinda {
+  background-image:url("./background.svg") !important;
+      background-size:cover;
+      background-repeat:no-repeat;
+}
+ .page{
+margin-top:3%;
+  background-image:url("./background.svg") !important;
+      background-size:cover;
+      background-repeat:no-repeat;
+ 
+  color:rgb(54, 5, 101);
+  font-size: 53px;
+
+  text-align: center;
+  margin-left: 0%;
+  padding-bottom:60px;
+  text-align: center;
+ 
+  height:1000px;
+  font-weight: 300;
+
+  
+ }
+
+img{
+  float: left;
+  margin-left: 100px;
+  border-radius: 4px;
+  
+
+}
+  
