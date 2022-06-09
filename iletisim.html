@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>İLETİŞİM-TUBA GÜRBÜZ</title>
+    <link rel="stylesheet" href="./contents/css/üçüncü.css">
+</head>
+<body>
+<div class="form">
+    <form action="gonder.php" method="post">
+      <h2>İLETİŞİM FORMU</h2>
+      <label for="isimsoyisim">İSİM-SOYİSİM:</label><br>
+      <input type="text" id="isimsoyisim" name="isim-soyisim"><br>
+  
+      <label for="mail">E-MAİL:</label><br>
+      <input type="email" id="mail" name="e-posta" size="60"><br>
+  
+      <label for="konu">KONU:</label><br>
+      <input type="text" id="konu" name="konu"  size="100" ><br>
+  
+      <button type="submit" class="gönder-butonu">GÖNDER</button>
+  
+  
+    </form></body>
+    <style>
+
+
+
+        body{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .form{
+            padding: 30px 40px;
+            margin-top: 50px;
+            border: 2px palevioletred solid;
+            border-radius: 6px;
+        }
+        .form h2{
+            font-size: 30px;
+        }
+        .form textarea{
+            max-width: 500px;
+        }
+    </style>

@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Major+Mono+Display&family=Orelega+One&family=Rubik+Glitch&display=swap');
 
-body{
-  
+*{
     font-family: 'Orelega One', cursive;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+  
     box-sizing: border-box;
-    background-image:url("./background.jpeg") !important;
-    background-size:cover;
-    background-repeat:no-repeat;
+   
     
   
+}
+
+body {
+  background-color: rgb(242, 238, 238);
+
 }
 
 
@@ -66,7 +69,7 @@ header{
  
 }
 
-}
+
 
 .ustMenu li a:hover{
   color:rgb(64, 8, 84);
@@ -101,21 +104,29 @@ header{
  }
 
 
+.page-hakkinda {
+  background-image:url("./background.svg") !important;
+      background-size:cover;
+      background-repeat:no-repeat;
+}
  .page{
- 
+margin-top:3%;
+  background-image:url("./background.svg") !important;
+      background-size:cover;
+      background-repeat:no-repeat;
  
   color:rgb(54, 5, 101);
   font-size: 53px;
-  float:left;
+
   text-align: center;
-  margin-left: 70px;
-  padding bottom:60px;
+  margin-left: 0%;
+  padding-bottom:60px;
   text-align: center;
-  padding-right: 50px;
-  line-height: 120%;
+ 
+  height:1000px;
   font-weight: 300;
 
-    
+  
  }
 
 img{
@@ -125,12 +136,4 @@ img{
   
 
 }
- 
-.pagephoto{
-  margin-bottom: 110px;
-}
-
-.harita{
-  float:right;
-  margin-right: 150px;
-}
+  
