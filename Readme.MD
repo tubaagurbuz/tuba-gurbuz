@@ -1,4 +1,4 @@
-# web-programming
+# İNTERNET TABANLI PROGRAMLAMA DERSİ KİŞİSEL BLOG ÖDEVİ
 **201502221 <br>TUBA GÜRBÜZ <br>  BANDIRMA 17EYLÜL ÜNİVERSİTESİ <br> BİLGİSAYAR MÜHENDİSLİĞİ  2. SINIF**
 
 Birinci:Fontawesome kullanarak siteme iconlar ekledim ve tittle vererek sitemin temelini attım.<br>
